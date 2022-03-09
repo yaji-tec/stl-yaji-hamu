@@ -32,3 +32,55 @@
   .header__item:hover .header__link {
     color: #fd7893;
   }
+ 
+  .hero__title {
+    color: #000000;
+    font-size: 3rem;
+    margin-bottom: 16px;
+  }
+  
+  .hero__title__accent {
+    color: #0000ff;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+  
+  .hero__subtitle {
+    white-space: pre-line;
+    color: #DC1434;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .hero__title__accent__ja {
+    /* 白丸のための余白 */
+    padding-top: 0.6rem; 
+    /* 背景の位置調整 */
+    background-position: top left -1px;
+     /* 背景を横に繰り返す */
+    background-repeat: repeat-x;
+    /* CSSの関数で画像を生成する */
+    background-image: radial-gradient(0.2rem 0.2rem at center center, white, white 100%, transparent);
+    /* 背景画像の大きさ */
+    background-size: 2rem 0.4rem; 
+  }
+  .hero {
+    /* 以下の1行を追加 */
+    position: relative;
+    background-image: url(img/career.jpg);
+    background-size: cover;
+    height: 100vh;
+    max-height: 1000px;
+  }
+  
+  .hero__circle {
+    position: absolute;
+    top: 18%;
+    left: 7%;
+    width:  1000px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
