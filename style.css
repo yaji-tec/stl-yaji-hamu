@@ -32,3 +32,60 @@
   .header__item:hover .header__link {
     color: #fd7893;
   }
+  .hero {
+    background-image: url("https://abillyz.com/t/skillet-inc/contents/ef94bc248469a03f9314d51d6ce284438efc1b69.webp");
+    background-size: cover;
+    height: 100vh;
+    max-height: 550px;
+  }
+  .hero__title {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+  
+  .hero__title__accent {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+  
+  .hero__subtitle {
+    white-space: pre-line;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .hero__title__accent__ja {
+    /* 白丸のための余白 */
+    padding-top: 0.6rem; 
+    /* 背景の位置調整 */
+    background-position: top left -1px;
+     /* 背景を横に繰り返す */
+    background-repeat: repeat-x;
+    /* CSSの関数で画像を生成する */
+    background-image: radial-gradient(0.2rem 0.2rem at center center, white, white 100%, transparent);
+    /* 背景画像の大きさ */
+    background-size: 2rem 0.4rem; 
+  }
+  .hero {
+    /* 以下の1行を追加 */
+    position: relative;
+    background-image: url("https://abillyz.com/t/skillet-inc/contents/ef94bc248469a03f9314d51d6ce284438efc1b69.webp");
+    background-size: cover;
+    height: 100vh;
+    max-height: 550px;
+  }
+  
+  .hero__circle {
+    position: absolute;
+    top: 18%;
+    left: 7%;
+    width:  600px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
