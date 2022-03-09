@@ -32,20 +32,15 @@
   .header__item:hover .header__link {
     color: #fd7893;
   }
-  .hero {
-    background-image: url("https://abillyz.com/t/skillet-inc/contents/ef94bc248469a03f9314d51d6ce284438efc1b69.webp");
-    background-size: cover;
-    height: 100vh;
-    max-height: 550px;
-  }
+ 
   .hero__title {
-    color: #ffffff;
-    font-size: 2rem;
+    color: #000000;
+    font-size: 3rem;
     margin-bottom: 16px;
   }
   
   .hero__title__accent {
-    color: #ffffff;
+    color: #0000ff;
     font-weight: bold;
     font-size: 2rem;
     margin-bottom: 16px;
@@ -53,7 +48,7 @@
   
   .hero__subtitle {
     white-space: pre-line;
-    color: #ffffff;
+    color: #DC1434;
     font-size: 2rem;
     font-weight: bold;
   }
@@ -72,17 +67,17 @@
   .hero {
     /* 以下の1行を追加 */
     position: relative;
-    background-image: url("https://abillyz.com/t/skillet-inc/contents/ef94bc248469a03f9314d51d6ce284438efc1b69.webp");
+    background-image: url(img/career.jpg);
     background-size: cover;
     height: 100vh;
-    max-height: 550px;
+    max-height: 1000px;
   }
   
   .hero__circle {
     position: absolute;
     top: 18%;
     left: 7%;
-    width:  600px;
+    width:  1000px;
     height: 450px;
     display: flex;
     flex-direction: column;
