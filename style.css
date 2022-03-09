@@ -8,8 +8,8 @@
   }
   
   .header__logo-image {
-    width: 122px;
-    height: 46px;
+    width: 80px;
+    height: 80px;
   }
   .header__list {
     display: flex;
