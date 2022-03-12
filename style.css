@@ -35,8 +35,8 @@
  
   .hero__title {
     color: #000000;
-    font-size: 2.8rem;
-    margin-bottom: 16px;
+    font-size: 3rem;
+    margin-bottom: 10px;
   }
   
   .hero__title__accent {
@@ -45,43 +45,18 @@
     font-size: 2rem;
     margin-bottom: 16px;
   }
-  
-  .hero__subtitle {
+    .hero__subtitle {
     white-space: pre-line;
     color: #DC1434;
-    font-size: 2rem;
+    font-size: 1.1rem;
     font-weight: bold;
   }
-  .hero__title__accent__ja {
-    /* 白丸のための余白 */
-    padding-top: 0.6rem; 
-    /* 背景の位置調整 */
-    background-position: top left -1px;
-     /* 背景を横に繰り返す */
-    background-repeat: repeat-x;
-    /* CSSの関数で画像を生成する */
-    background-image: radial-gradient(0.2rem 0.2rem at center center, white, white 100%, transparent);
-    /* 背景画像の大きさ */
-    background-size: 2rem 0.4rem; 
-  }
-  .hero {
+    .hero {
     position: relative;
     background-image: url(img/career.jpg);
     background-size: cover;
     height: 100vh;
-    max-height: 1000px;
-  }
-  
-  .hero__circle {
-    position: absolute;
-    top: 18%;
-    left: 7%;
-    width:  1000px;
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    max-height: 1200px;
   }
   .member {
     background-color: #f4f2ef;
@@ -89,7 +64,7 @@
   .member__title {
     font-size: 2rem;
     text-align: center;
-    padding: 40px 0;
+    padding: 16px 0;
   }
   .member__summary {
     cursor: pointer;
@@ -149,4 +124,40 @@
     background-color: #fff;
     border-radius: 8px;
     margin-bottom: 24px;
+  }
+  .footer {
+    background-color: #626063;
+  }
+  .footer__list {
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  .footer__item {  
+    flex-basis: 23%;
+    padding: 0 12px; 
+  }
+  
+  .footer__item:nth-child(n) {
+    margin-right: 8px;
+  }
+  
+  .footer__item:last-child,
+  .footer__item:nth-last-child(2) {
+    margin-bottom: 0;
+  }
+  .footer__link:hover {
+    text-decoration: underline #ffffff;
+  }
+  .footer__copyright {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    padding-bottom: 12px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    white-space: nowrap;
   }
